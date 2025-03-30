@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 500;
+  background-color: #2b2b2e;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #2b2b2e;
+  padding: 10px;
+  color: rgb(228, 232, 232);
+}
+
+.header h1 {
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.info-box {
+  font-family: sans-serif;
+  color: rgb(228, 232, 232);
+  line-height: 1.5rem;
+  max-width: 40rem;
+  margin: 1rem;
+}
+
+a {
+  color: aqua;
+  font-weight: bolder;
+}
